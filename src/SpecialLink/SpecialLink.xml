@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="SpecialLink.widget.SpecialLink" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>SpecialLink</name>
+    <description></description>
+
+    <icon />
+
+    <properties>
+    <property key="titleAttr" type="attribute" defaultValue="">
+            <caption>Title attribute</caption>
+            <category>Data source</category>
+            <description></description>
+            <attributeTypes>
+                <attributeType name="String" />
+            </attributeTypes>
+        </property>
+        <property key="deeplinkAttr" type="attribute" defaultValue="">
+            <caption>Deeplink attribute</caption>
+            <category>Data source</category>
+            <description></description>
+            <attributeTypes>
+                <attributeType name="String" />
+            </attributeTypes>
+        </property>
+        <property key="onClickMicroflow" type="microflow" required="true">
+            <caption>On Click Microflow</caption>
+            <category>Behavior</category>
+            <description></description>
+            <returnType type="Void" />
+        </property>
+    </properties>
+</widget>
