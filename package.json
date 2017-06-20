@@ -1,12 +1,11 @@
 {
   "name": "SpecialLink",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This link can open microflows but can also open a deeplink in a new tab if ctrl-clicked.",
   "license": "Apache 2",
   "author": "<You>",
   "private": true,
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "del": "^2.2.2",
     "gulp": "^3.9.1",
@@ -24,7 +23,7 @@
   },
   "generatorVersion": "2.0.0",
   "paths": {
-    "testProjectFolder": "C:\\Users\\rvh\\Documents\\Mx workspace\\MxForum-main\\",
+    "testProjectFolder": "C:\\Projects\\MendixProjects\\MxForum-main\\",
     "testProjectFileName": "MxForum.mpr"
   },
   "scripts": {
